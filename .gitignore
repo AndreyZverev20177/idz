@@ -1,0 +1,11 @@
+# Временные файлы Python, окружения и локальные секреты не должны попадать в Git.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.coverage
+.DS_Store
